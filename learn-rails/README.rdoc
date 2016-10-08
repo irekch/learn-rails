@@ -1,5 +1,10 @@
 == README
 
+Building of an application according to Learn Ruby on Rails by Daniel Kehoe
+_____________________________________________________________________
+Tworzenie aplikacji wedlug Ruby on Rails Daniela Kehoe
+_____________________________________________________________________
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
