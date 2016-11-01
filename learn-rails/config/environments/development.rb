@@ -33,7 +33,8 @@ Rails.application.configure do
   # sets up sendgrid mailer
   config.action_mailer.smtp_settings = {
     address: "smtp.sendgrid.net",
-    port: 587,
+    # port:587, # uzywamy na Linuksie stacjonarnym
+    port: 2525, # uzywamy w Cloud9 zamiast port:587
     domain: Rails.application.secrets.domain_name,
     authentication: "plain",
     user_name: Rails.application.secrets.email_provider_username,
